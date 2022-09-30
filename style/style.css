@@ -32,3 +32,52 @@ body {
   -webkit-text-size-adjust: 100%;
   background: white;
 }
+.container {
+  display: block;
+  max-width: 1110px;
+  padding: 0 20px 0 20px;
+  margin: 0 auto 0 auto;
+  overflow: hidden;
+}
+.header {
+  display: block;
+  width: 100%;
+}
+.upper-header {
+  background-color: #e5e5e5;
+}
+.middle-header {
+  border-bottom: 1px #efefef solid;
+}
+.nav {
+  display: block;
+  margin: 12px auto 11px auto;
+}
+.nav__list,
+.nav-category__list {
+  display: block;
+  text-align: center;
+  list-style: none;
+}
+.nav__item {
+  display: inline-block;
+  margin: 0 30px 0 0;
+  height: 26px;
+}
+.nav__link {
+  text-decoration: none;
+  color: #333333;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 26px;
+  padding: 5px 10px;
+  transition: 0.6s, filter 0.6s ease-in-out;
+  border: #e5e5e5 solid 2px;
+  border-radius: 26px;
+}
+.nav__link:hover {
+  background-color: #ffffff;
+  border: #f13c6e solid 2px;
+  border-radius: 26px;
+  color: #000;
+}
