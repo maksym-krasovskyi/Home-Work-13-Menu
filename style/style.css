@@ -32,6 +32,16 @@ body {
   -webkit-text-size-adjust: 100%;
   background: white;
 }
+.title-1 {
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 56px;
+}
+text {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+}
 .container {
   display: block;
   max-width: 1110px;
@@ -228,6 +238,50 @@ body {
   visibility: visible;
   opacity: 1;
   transform: translateY(0px);
+}
+.main {
+  display: block;
+  width: 100%;
+  background-color: #efefef;
+}
+.banner {
+  display: block;
+  background-image: url(../img/banner.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  padding: 0 0 0;
+  margin-bottom: 200px;
+  overflow: hidden;
+}
+.banner__title {
+  display: block;
+  max-width: 540px;
+  margin: 192px 0 50px 0;
+  vertical-align: middle;
+  text-align: left;
+  color: #ffffff;
+}
+.banner__text {
+  max-width: 308px;
+  margin-bottom: 50px;
+  text-align: left;
+  vertical-align: middle;
+  color: #ffffff;
+}
+.banner__btn {
+  margin: 0 0 193px 0;
+  background-color: #f13c6e;
+  color: #ffffff;
+  border: #ffffff solid 2px;
+  transition: 0.6s, filter 0.6s ease-in-out;
+}
+.banner__btn:hover {
+  background-color: #ffffff;
+  color: #000000;
 }
 .clearfix:after {
   content: "";
